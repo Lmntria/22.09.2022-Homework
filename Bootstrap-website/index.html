@@ -18,10 +18,10 @@
      <h1 class="h1 block text-color">Start Bootstrap</h1>
      <!-- heading menu -->
      <ul class="menu float-right">
-       <li><a class="text-color" href="#">About</a></li>
-       <li><a class="text-color" href="#">Services</a></li>
-       <li><a class="text-color" href="#">Portfolio</a></li>
-       <li><a class="text-color" href="#">Contact</a></li>
+       <li><a class="text-color" href="#About">About</a></li>
+       <li><a class="text-color" href="#Services">Services</a></li>
+       <li><a class="text-color" href="#portfolio">Portfolio</a></li>
+       <li><a class="text-color" href="#contact">Contact</a></li>
      </ul>
     </div>
   </nav>
@@ -35,14 +35,20 @@
 </header>
 <!-- Section About -->
 <section class="combine-sec sec-bck-clr" id="About">
-  <div id="head" class=" text-center ">
-    <h2 class="heading-text padding-3">We've got what you need!</h2>
-    <hr class="hr">
-    <p class="subtitle white">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
-    <button class="btn bck-white black">get started!</button>
+  <div class="container">
+    <div class="w-100">
+      <div id="head" class=" text-center ">
+        <h2 class="heading-text padding-3">We've got what you need!</h2>
+        <hr class="hr">
+        <p class="subtitle white">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
+        <button class="btn bck-white black">get started!</button>
+      </div>
+    </div>
   </div>
 </section>
-<section class="combine-sec bck-clr-black" id="Services">
+<!-- Section Service -->
+<section class="combine-sec bck-white" id="Services">
+  <!-- Service -->
   <div id="head" class=" text-center ">
     <h2 class="heading-text padding-3 black" >At Your Service</h2>
     <hr class="hr">
@@ -80,7 +86,139 @@
     </div>
   </div>
 </section>
-
+<!-- Section Portfolio -->
+<section class="combine-sec" id="portfolio">
+<div class="container" id="prt-div">
+  <!-- Photos -->
+  <div class="item protfolio-item">
+    <div class="portfolio-img" style="background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/fullsize/1.jpg);">
+      <div class="portfolio-back-img">
+        <h3 class="text-center">
+          Category
+        </h3>
+        <p id="img-p" class="text-center">
+          Project Name
+        </p>
+      </div>
+    </div>
+    
+  </div>
+  <div class="item protfolio-item">
+    <div class="portfolio-img" style="background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/fullsize/2.jpg);">
+      <div class="portfolio-back-img">
+        <h3 class="text-center">
+          Category
+        </h3>
+        <p id="img-p" class="text-center">
+          Project Name
+        </p>
+      </div>
+    </div>
+    
+  </div>
+  <div class="item protfolio-item">
+    <div class="portfolio-img" style="background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/fullsize/3.jpg);">
+      <div class="portfolio-back-img">
+        <h3 class="text-center">
+          Category
+        </h3>
+        <p id="img-p" class="text-center">
+          Project Name
+        </p>
+      </div>
+    </div>
+    
+  </div>
+  <div class="item protfolio-item">
+    <div class="portfolio-img" style="background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/fullsize/4.jpg);">
+      <div class="portfolio-back-img">
+        <h3 class="text-center">
+          Category
+        </h3>
+        <p id="img-p" class="text-center">
+          Project Name
+        </p>
+      </div>
+    </div>
+    
+  </div>
+  <div class="item protfolio-item">
+    <div class="portfolio-img" style="background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/fullsize/5.jpg);">
+      <div class="portfolio-back-img">
+        <h3 class="text-center">
+          Category
+        </h3>
+        <p id="img-p" class="text-center">
+          Project Name
+        </p>
+      </div>
+    </div>
+    
+  </div>
+  <div class="item protfolio-item">
+    <div class="portfolio-img" style="background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/fullsize/6.jpg);">
+      <div class="portfolio-back-img">
+        <h3 class="text-center">
+          Category
+        </h3>
+        <p id="img-p" class="text-center">
+          Project Name
+        </p>
+      </div>
+    </div>
+    
+  </div>
+  <!-- Download -->
+  <div class="item protfolio-item">
+    <div class="combine-sec bck-clr-black w-100" id="download">
+      <div id="head" class=" text-center ">
+        <h2 class="heading-text-for-port padding-3 text-center">Free Download at Start Bootstrap!</h2>
+        <button class="btn bck-white black">download now!</button>
+      </div>
+    </div>
+  </div>
+  
+</div>
+</section>
+<section class="combine-sec " id="contact">
+  <div class="container">
+    <div class="w-100 contact-head">
+      <div id="" class="text-center ">
+        <h2 class="heading-text-contact padding-3 black">Let's Get In Touch!</h2>
+        <hr class="hr text-center">
+        <p class="subtitle black">Ready to start your next project with us? Send us a messages and we will get back to you as soon as possible!</p>
+        <div id="contact-input" class="">
+          <div class="div-input text-center input">
+            <label for="name"></label>
+            <input type="text" id="name" type="radio" class="label"  placeholder="First name" required>
+          </div>
+          <div class="div-input input">
+            <label for="Email address"></label>
+            <input type="email" id="Email address" type="radio" class="label"  placeholder="Email address" required>
+          </div>
+          <div class="div-input input">
+            <label for="Phone number"></label>
+            <input type="text" id="Phone number" type="radio" class="label"  placeholder="Phone number" required>
+          </div>
+          <div>
+            <label for="text"></label>
+            <textarea name="text" id="text" cols="43" rows="8" placeholder="Message" class="textarea"></textarea>
+          </div>
+        </div>
+        <div>
+          <button class="btn-submit bck-white">Submit</button>
+        </div>
+      </div>
+    </div>
+    <div class="phone-sign">
+      <i class="las la-mobile"></i>
+    </div>
+    <p class="p">+1 (555) 123-4567</p>
+  </div>
+</section>
+<footer class="footer w-100">
+ <p>Copyright © 2022 - Company Name</p>
+</footer>
 
 
 
